@@ -1,4 +1,4 @@
-var main = require('index.js');
+var main = require('./index.js');
 var assert = require('assert');
 
 describe('Regular factorial value', function() {
