@@ -17,4 +17,7 @@ describe('Edge cases for factorial function', function() {
     it('should return undefined for negative input', function() {
         assert.strictEqual(main.factorial(-1), undefined);
     });
+    it('should return undefined for factorial(-5)', function() {
+        assert.strictEqual(main.factorial(-5), undefined);
+    });
 });
