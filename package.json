@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test-coverage": "nyc --check-coverage=true --statements=100 mocha",
     "test": "mocha"
   },
   "author": "Landen Finlinson",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^17.1.0"
   }
 }
